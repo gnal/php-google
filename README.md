@@ -1,7 +1,7 @@
 PHP Google
 ==========
 
-PHP wrappers for some Google's APIs and tools.
+PHP wrappers for some Google APIs and tools.
 
 Google Maps API
 ------------------

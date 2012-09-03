@@ -1,7 +1,7 @@
 {
     "name": "msi/php-google",
     "type": "library",
-    "description": "PHP wrappers for some Google's APIs and tools",
+    "description": "PHP wrappers for some Google APIs and tools",
     "license": "MIT",
     "authors": [
         {
