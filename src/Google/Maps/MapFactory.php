@@ -4,8 +4,8 @@ namespace Google\Maps;
 
 class MapFactory
 {
-    public function create($mapDiv, array $options = array())
+    public function create(array $options = array())
     {
-        return new Map($mapDiv, $options);
+        return new Map($options);
     }
 }

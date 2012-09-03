@@ -9,8 +9,6 @@ class Map
 {
     protected $key;
 
-    protected $mapDivId;
-
     protected $options;
 
     protected $attributes = array();
@@ -19,10 +17,9 @@ class Map
 
     protected $overlays = array();
 
-    public function __construct($mapDivId, array $options = array())
+    public function __construct(array $options = array())
     {
         $this->id = 'map'.uniqid();
-        $this->mapDivId = $mapDivId;
 
         $resolver = new OptionsResolver();
         $this->setDefaultOptions($resolver);
@@ -109,9 +106,9 @@ class Map
         return $this;
     }
 
-    public function getMapDivId()
+    public function getOption($key)
     {
-        return $this->mapDivId;
+        return $this->options[$key];
     }
 
     public function getOptions()
@@ -134,8 +131,9 @@ class Map
     protected function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'center' => 'new google.maps.LatLng(-34.397, 150.644)',
-            'zoom' => 4,
+            'mapDiv' => 'mapCanvas',
+            'center' => 'new google.maps.LatLng(45.5086699, -73.5539925)',
+            'zoom' => 6,
             'mapTypeId' => 'google.maps.MapTypeId.ROADMAP',
         ));
     }
