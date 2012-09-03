@@ -3,9 +3,6 @@ PHP Google APIs
 
 PHP wrappers for some of Google's APIs.
 
-Usage
------
-
 ``` php
 use Google\Maps\Map;
 
@@ -18,10 +15,10 @@ $map->addOverlay('marker', array(
 ));
 ```
 
-``` html
-{{ msi_google_render_map_html(map) }}
+``` php
+<div id="mapCanvas" style="width:100%; height:100%"></div>
 
 <!-- ... -->
 
-{{ msi_google_render_map_js(map) }}
+<?php echo $map->toJs() ?>
 ```
