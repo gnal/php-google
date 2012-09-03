@@ -121,7 +121,7 @@ class Map
         return $this->overlays;
     }
 
-    public function toJs()
+    public function render()
     {
         $renderer = new MapRenderer();
 

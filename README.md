@@ -21,7 +21,7 @@ $map->addOverlay('marker', array(
 ``` php
 <div id="mapCanvas" style="width:100%; height:100%"></div>
 
-<?php echo $map->toJs() ?>
+<?php echo $map->render() ?>
 ```
 
 Google Chart Tools
