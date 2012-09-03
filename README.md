@@ -4,7 +4,7 @@ PHP Google APIs
 PHP wrappers for some of Google's APIs.
 
 ``` php
-use Google\Maps\Map;
+use Msi\Google\Maps\Map;
 
 $map = new Map();
 
