@@ -1,7 +1,10 @@
-PHP Google APIs
-===============
+PHP Google
+==========
 
-PHP wrappers for some of Google's APIs.
+PHP wrappers for some Google's APIs and tools.
+
+Google Maps API
+------------------
 
 ``` php
 use Msi\Google\Maps\Map;
@@ -20,3 +23,8 @@ $map->addOverlay('marker', array(
 
 <?php echo $map->toJs() ?>
 ```
+
+Google Chart Tools
+------------------
+
+maybe coming soon

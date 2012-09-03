@@ -1,6 +1,6 @@
 <?php
 
-namespace Google\Maps;
+namespace Msi\Google\Maps;
 
 class MapFactory
 {

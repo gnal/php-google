@@ -1,6 +1,6 @@
 <?php
 
-namespace Google\Maps;
+namespace Msi\Google\Maps;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
