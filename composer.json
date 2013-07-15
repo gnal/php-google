@@ -9,10 +9,6 @@
             "email": "alexisjoubert@groupemsi.com"
         }
     ],
-    "require": {
-        "php": ">=5.3.6",
-        "symfony/options-resolver": "dev-master"
-    },
     "autoload": {
         "psr-0": { "Msi": "src/" }
     }
