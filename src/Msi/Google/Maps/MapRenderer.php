@@ -34,7 +34,7 @@ class MapRenderer
         $i = 1;
         $l = count($array);
         foreach ($array as $k => $v) {
-            $js .= '    '.$k.': '.(is_array($v) ? $this->arrayToJson($v) : $v).($i === $l ? '' : ',')."\n";
+            $js .= '    '.$k.': '.(is_array($v) ? $this->arrayToJs($v) : $v).($i === $l ? '' : ',')."\n";
             $i++;
         }
 
