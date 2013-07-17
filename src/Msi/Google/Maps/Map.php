@@ -131,7 +131,6 @@ class Map
     protected function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'mapDiv' => 'mapCanvas',
             'center' => 'new google.maps.LatLng(45.5086699, -73.5539925)',
             'zoom' => 6,
             'mapTypeId' => 'google.maps.MapTypeId.ROADMAP',
